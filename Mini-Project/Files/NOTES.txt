@@ -1,0 +1,28 @@
+As we can see, GANs have a very impressive results and realistic content. It can also be modelled for other applications like image restoration
+
+But it is very difficult to train it. As the outputs are realistic, not real due to the loss function.
+
+As you may know loss function helps to evaluate the algorithm and models the dataset.
+
+If the predictions are totally off, then the loss function will output a higher number. If they're pretty good, it'll output a lower number.
+
+
+In Surface Representation we used Edge Preserving Filtering. It is basically an image processing technique.
+
+It helps to reduce noise and smoothens image while retaining the texture and sharp edges.
+
+
+In Structure representation 
+
+We at first use felzenszwalb algorithm to segment images into separate regions. 
+
+As superpixel algorithms only consider the similarity of pixels and take average colour value 
+
+We further introduce selective search to merge segmented regions
+
+Finally, we used adaptive colouring Algorithm as it enhances the contrast and reduces hazing effect
+
+
+In texture representation, we used random colour shift algorithm as it removes unnecessary colour information and generates random intensity map with luminance
+
+
