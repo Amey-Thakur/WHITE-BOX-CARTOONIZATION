@@ -1,0 +1,17 @@
+conda create -n wbc python=3.6
+
+cd "path"
+
+conda activate wbc
+
+pip install tensorflow==1.12.0
+
+pip install scikit-image==0.14.5
+
+pip install ffmpeg
+
+pip install opencv-python
+
+pip install tqdm
+
+python cartoonize.py
