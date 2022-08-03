@@ -9,6 +9,8 @@
    - **[Presentation](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/blob/main/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20PRESENTATION.pdf)**
  
    - **[Report](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/blob/main/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf)**
+   
+   - **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
 
 
 ## Research Paper
