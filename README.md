@@ -1,6 +1,16 @@
-# WHITE-BOX-CARTOONIZATION using TensorFlow.js
+# WHITE-BOX-CARTOONIZATION
  
  👉🏻 **An implementation of the Whitebox Cartoonization model using Tensorflow.js and HTML/CSS/Javascript/Bootstrap.**
+
+## Authors
+  
+   - **[Amey Thakur](https://github.com/Amey-Thakur)**
+   
+   - **[Hasan Rizvi](https://github.com/rizvihasan)**
+
+   - **[Mega Satish](https://github.com/msatmod)**
+
+#
 
  >**[Try The Web Application!](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION)**
 
@@ -31,4 +41,4 @@
 
 <p align="center"> <b> 👉🏻 Presented as a part of the 6th Semester of Engineering @ Terna Engineering College 👈🏻 <b> </p>
  
-<p align="center"><a href='https://github.com/Amey-Thakur/ACHIEVEMENTS#engineering', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p>
+<p align="center"><a href='https://github.com/Amey-Thakur/ENGINEERING', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p>
