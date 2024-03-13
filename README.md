@@ -51,8 +51,8 @@
 
 ![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3)
 
-
 ---
+
 <p align="center"> <b> 👉🏻 Presented as a part of the 6th Semester Mini-Project @ Terna Engineering College 👈🏻 <b> </p>
 
 <p align="center"> <b> 👷 Project Authors: Amey Thakur, Hasan Rizvi and Mega Satish (Batch of 2022) <b> </p>
