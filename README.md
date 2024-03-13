@@ -39,6 +39,20 @@
  
 ---
 
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4220a8f7-999e-4077-8ac5-40f97741fdc7)
+
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/780b6642-8f79-40c6-b433-9a021f86dfb3)
+
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/00a77151-b78d-4215-8871-7c4c481d3fcb)
+
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/a5d29de7-a875-43d6-a0c5-43f0695883f8)
+
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/81f82daa-0130-4af6-be51-867de2b22e7c)
+
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3)
+
+
+---
 <p align="center"> <b> 👉🏻 Presented as a part of the 6th Semester Mini-Project @ Terna Engineering College 👈🏻 <b> </p>
 
 <p align="center"> <b> 👷 Project Authors: Amey Thakur, Mega Satish and Saakshi Deokar (Batch of 2022) <b> </p>
