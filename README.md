@@ -49,6 +49,8 @@
 
 ![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/81f82daa-0130-4af6-be51-867de2b22e7c)
 
+![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4042df79-1011-4a77-980f-820217c8946e)
+
 ![image](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3)
 
 ---
