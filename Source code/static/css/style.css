@@ -1,0 +1,688 @@
+/*
+    style.css
+    ===========================================
+    Main stylesheet for White-Box Cartoonization.
+    Theme: Deep Slate & Vibrant Cyan (Dark Art Studio)
+*/
+
+:root {
+    --bg-dark: #0f172a;
+    /* Slate 900 */
+    --bg-darker: #020617;
+    /* Slate 950 */
+    --card-bg: rgba(255, 255, 255, 0.96);
+    --text-light: #f1f5f9;
+    /* Slate 100 */
+    --text-muted: #94a3b8;
+    /* Slate 400 */
+    --accent-primary: #0ea5e9;
+    /* Sky 500 */
+    --accent-hover: #0284c7;
+    /* Sky 600 */
+    --accent-glow: 0 0 15px rgba(14, 165, 233, 0.4);
+}
+
+body {
+    /* Continued Deep Dark Slate Gradient */
+    background: linear-gradient(135deg, var(--bg-dark), var(--bg-darker));
+    font-family: 'Play', sans-serif;
+    color: var(--text-light);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: rgba(2, 6, 23, 0.6);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    /* Center the title */
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-light);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Controls Container - Positioned Absolutely on Top Right */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    /* Fixed to top corner, aligned with padding */
+    transform: none;
+    /* Remove vertical centering */
+}
+
+/* 
+    Main Layout Container
+*/
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Card Component (White Box) */
+.card-box {
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    width: 480px;
+    min-height: 500px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Header inside the card */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-header span {
+    font-weight: 700;
+    color: #1e293b;
+    /* Dark text for inside white card */
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Buttons (Upload, Save) */
+.btn-custom {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-hover));
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-family: 'Play', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(14, 165, 233, 0.3);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(14, 165, 233, 0.5);
+}
+
+/* Icon Button (Square) */
+.btn-icon {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0ea5e9, #0284c7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    /* Circle shape to match pill buttons */
+}
+
+/* Image Display Area */
+.image-area {
+    flex: 1;
+    background-color: #f8fafc;
+    /* Slate 50 */
+    border: 2px dashed #cbd5e1;
+    /* Slate 300 */
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.image-area:hover {
+    border-color: var(--accent-primary);
+    background-color: #f1f5f9;
+}
+
+.image-area img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.placeholder-text {
+    color: #a0aec0;
+    font-size: 1.2rem;
+    pointer-events: none;
+    font-style: italic;
+}
+
+/* Footer Section */
+.site-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+    padding: 40px 20px;
+    margin-top: auto;
+    font-size: 0.9rem;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-col {
+    min-width: 200px;
+}
+
+.footer-col h4 {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #63b3ed;
+    border-bottom: 2px solid rgba(99, 179, 237, 0.3);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-col p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.footer-col .highlight {
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer-col .sub-text {
+    color: #a0aec0;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.footer-col a {
+    color: #cbd5e0;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: block;
+    /* Links on new lines */
+    margin-bottom: 8px;
+}
+
+.footer-col a:hover {
+    color: #63b3ed;
+    transform: translateX(5px);
+    /* Slide effect */
+}
+
+/* Grouped Links (Resources) */
+.link-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allow wrapping on small screens */
+    margin-bottom: 20px;
+}
+
+.link-group a {
+    font-size: 0.9rem;
+    color: #cbd5e0;
+    margin-bottom: 0;
+    /* Reset */
+    display: inline-block;
+}
+
+.link-group .separator {
+    color: #4a5568;
+    font-size: 0.8rem;
+}
+
+/* ✏️ Creative Pencil Loader */
+.creative-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 20;
+    backdrop-filter: blur(2px);
+}
+
+.loader-content {
+    text-align: center;
+    position: relative;
+    width: 200px;
+}
+
+.pencil {
+    font-size: 3rem;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    animation: draw 2s infinite linear;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.stroke-line {
+    height: 4px;
+    background: #3182ce;
+    width: 0%;
+    margin: 10px auto;
+    border-radius: 2px;
+    animation: lineGrow 2s infinite linear;
+}
+
+.loader-content p {
+    color: #334155;
+    /* Slate 700 */
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    font-family: 'Play', sans-serif;
+    animation: pulseText 1.5s infinite ease-in-out;
+}
+
+/* Animations */
+@keyframes draw {
+    0% {
+        left: 10%;
+        transform: rotate(0deg) translateY(0);
+    }
+
+    25% {
+        left: 30%;
+        transform: rotate(10deg) translateY(-5px);
+    }
+
+    50% {
+        left: 50%;
+        transform: rotate(0deg) translateY(0);
+    }
+
+    75% {
+        left: 70%;
+        transform: rotate(-10deg) translateY(-5px);
+    }
+
+    100% {
+        left: 90%;
+        transform: rotate(0deg) translateY(0);
+    }
+}
+
+@keyframes lineGrow {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes pulseText {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+}
+
+/* Utility Class */
+.hidden {
+    display: none !important;
+}
+
+/* 🎬 Clapper Animation */
+.clapper-action {
+    animation: actionCut 0.6s ease-in-out;
+}
+
+@keyframes actionCut {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(-20deg);
+    }
+
+    /* Tilt back */
+    50% {
+        transform: rotate(10deg);
+    }
+
+    /* Snap down (Cut!) */
+    70% {
+        transform: rotate(-5deg);
+    }
+
+    /* Rebound */
+    100% {
+        transform: rotate(0deg);
+    }
+
+    /* Settle */
+}
+
+/* Subtle Animation for Clapper during Processing */
+.clapper-processing {
+    animation: subtleSway 2s infinite ease-in-out;
+    filter: drop-shadow(0 0 5px var(--accent-primary));
+}
+
+@keyframes subtleSway {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-8deg);
+    }
+}
+
+/* 🎬 Clapper Hover Effect */
+#clapperIcon {
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+#clapperIcon:hover {
+    animation: clapperBounce 0.6s ease-in-out;
+    filter: drop-shadow(0 0 15px rgba(14, 165, 233, 0.8));
+}
+
+@keyframes clapperBounce {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    15% {
+        transform: rotate(-25deg) scale(1.15);
+    }
+
+    30% {
+        transform: rotate(15deg) scale(1.1);
+    }
+
+    45% {
+        transform: rotate(-10deg) scale(1.05);
+    }
+
+    60% {
+        transform: rotate(5deg) scale(1.03);
+    }
+
+    75% {
+        transform: rotate(-3deg) scale(1.01);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+/* 🎥 Cinematic Overlay Styles */
+.cinematic-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    /* Semi-transparent */
+    backdrop-filter: blur(8px);
+    /* Blur the background content */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease;
+}
+
+/* Drag & Drop Highlight */
+.image-area.highlight-drop {
+    border-color: var(--accent-primary);
+    background: rgba(14, 165, 233, 0.1);
+    transform: scale(1.02);
+}
+
+/* Workspace Area */
+.workspace-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba(0, 0, 0, 0.02);
+    /* Slight inset area */
+    border-radius: 4px;
+    border: 2px dashed transparent;
+    /* Ready for drag highlight */
+    transition: all 0.2s;
+}
+
+.cinematic-overlay.playing {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cinematic-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cinematic-title {
+    font-family: 'Play', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #fff, #aaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* Animation Classes (Added via JS) */
+.animate-title {
+    animation: movieTitleAnim 4s ease-out forwards;
+}
+
+.cinematic-credits {
+    opacity: 0;
+}
+
+.animate-credits {
+    animation: creditsFadeIn 2s ease-out 1.5s forwards;
+    /* Delay start */
+}
+
+.credits-label {
+    font-size: 1.2rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.credits-name {
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Keyframes */
+@keyframes movieTitleAnim {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        filter: blur(10px);
+    }
+
+    30% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.1);
+        filter: blur(5px);
+    }
+}
+
+@keyframes creditsFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ⌨️ Keyboard Notification Toast */
+.keyboard-notification {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    color: var(--text-light);
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Play', sans-serif;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(14, 165, 233, 0.3);
+    border: 1px solid rgba(14, 165, 233, 0.5);
+    z-index: 10000;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    pointer-events: none;
+}
+
+.keyboard-notification.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Add a subtle glow animation */
+@keyframes notificationGlow {
+
+    0%,
+    100% {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+            0 0 20px rgba(14, 165, 233, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+            0 0 25px rgba(14, 165, 233, 0.6);
+    }
+}
+
+.keyboard-notification.show {
+    animation: notificationGlow 2s ease-in-out;
+}
+
+/* Placeholder Text Styling */
+.placeholder-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.placeholder-text svg {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the drop zone */
+#inputDropZone:hover .placeholder-text svg {
+    transform: scale(1.1);
+    color: var(--accent-primary) !important;
+}

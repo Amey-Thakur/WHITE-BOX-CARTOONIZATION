@@ -1,0 +1,188 @@
+/* =============================================================================
+   🌈 THEME SYSTEM - Dark/Light Mode Toggle
+   ============================================================================= */
+
+/* Theme Toggle & Fullscreen Buttons */
+.theme-toggle-btn,
+.fullscreen-btn {
+    position: relative;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    color: var(--text-light);
+    border: 1px solid rgba(14, 165, 233, 0.5);
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.theme-toggle-btn:hover {
+    background: rgba(14, 165, 233, 0.9);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(14, 165, 233, 0.5);
+}
+
+/* Default Dark Mode (already defined in style.css) */
+:root {
+    --bg-dark: #0f172a;
+    --bg-darker: #020617;
+    --card-bg: rgba(255, 255, 255, 0.96);
+    --text-light: #f1f5f9;
+    --text-muted: #94a3b8;
+    --accent-primary: #0ea5e9;
+    --accent-hover: #0284c7;
+    --accent-glow: 0 0 15px rgba(14, 165, 233, 0.4);
+}
+
+/* Light Mode Theme */
+body.light-mode {
+    background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
+    color: #1e293b;
+}
+
+.light-mode .header {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .header h1 {
+    color: #1e293b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .card-box {
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .card-box:hover {
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .image-area {
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+}
+
+.light-mode .image-area:hover {
+    border-color: var(--accent-primary);
+    background-color: #f1f5f9;
+}
+
+.light-mode .placeholder-text {
+    color: #64748b;
+}
+
+.light-mode .site-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: #334155;
+}
+
+.light-mode .footer-col h4 {
+    color: var(--accent-primary);
+    border-bottom: 2px solid rgba(14, 165, 233, 0.3);
+}
+
+.light-mode .footer-col a {
+    color: #475569;
+}
+
+.light-mode .footer-col a:hover {
+    color: var(--accent-primary);
+}
+
+.light-mode .footer-col .highlight {
+    color: #1e293b;
+}
+
+.light-mode .footer-col .sub-text {
+    color: #64748b;
+}
+
+.light-mode .link-group .separator {
+    color: #94a3b8;
+}
+
+/* Light mode buttons */
+.light-mode .theme-toggle-btn,
+.light-mode .fullscreen-btn {
+    background: rgba(255, 255, 255, 0.9);
+    color: #1e293b;
+    border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.light-mode .theme-toggle-btn:hover,
+.light-mode .fullscreen-btn:hover {
+    background: rgba(14, 165, 233, 0.2);
+    border-color: var(--accent-primary);
+}
+
+/* Light mode cinematic overlay */
+.light-mode .cinematic-overlay {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.light-mode .cinematic-title {
+    background: linear-gradient(to right, #1e293b, #64748b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.light-mode .credits-label {
+    color: #64748b;
+}
+
+.light-mode .credits-name {
+    color: #334155;
+}
+
+/* Light mode notification toast */
+.light-mode .keyboard-notification {
+    background: rgba(255, 255, 255, 0.95);
+    color: #1e293b;
+    border: 1px solid rgba(14, 165, 233, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+        0 0 20px rgba(14, 165, 233, 0.3);
+}
+
+/* Light mode loader */
+.light-mode .creative-loader {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.light-mode .loader-content p {
+    color: #334155;
+}
+
+.light-mode .stroke-line {
+    background: var(--accent-primary);
+}
+
+/* Smooth transitions for theme changes */
+body,
+.header,
+.card-box,
+.site-footer,
+.theme-toggle-btn,
+.fullscreen-btn,
+.keyboard-notification,
+.creative-loader,
+.cinematic-overlay {
+    transition: background 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* Mobile styling is now handled in mobile.css via flexbox */
