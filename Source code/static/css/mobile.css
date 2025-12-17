@@ -1,0 +1,436 @@
+/* =============================================================================
+   📱 MOBILE & ACCESSIBILITY OPTIMIZATIONS
+   ============================================================================= */
+
+/* Fullscreen Toggle Button */
+.fullscreen-btn {
+    /* Position handled by flexbox in style.css/theme.css */
+    /* Remove absolute positioning */
+}
+
+.fullscreen-btn:hover {
+    background: rgba(14, 165, 233, 0.9);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(14, 165, 233, 0.5);
+}
+
+/* Camera Button - Now visible on all devices */
+.camera-btn {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Touch-friendly larger tap targets on mobile */
+@media (max-width: 768px) {
+    .btn-custom {
+        padding: 14px 28px;
+        font-size: 0.9rem;
+        min-width: 120px;
+    }
+
+    .camera-btn {
+        display: inline-block;
+    }
+
+    .fullscreen-btn {
+        padding: 12px 18px;
+        font-size: 1.4rem;
+    }
+}
+
+/* Tablet Responsive (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .main-container {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .card-box {
+        width: 420px;
+        min-height: 450px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .footer-grid {
+        gap: 50px;
+    }
+}
+
+/* Mobile Responsive (max 768px) */
+@media (max-width: 768px) {
+
+    /* Fix horizontal overflow and ensure proper box-sizing */
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        padding: 15px;
+        flex-direction: column;
+        gap: 0;
+        position: relative;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        flex-direction: column;
+        gap: 10px;
+        word-wrap: break-word;
+        max-width: 100%;
+        margin-top: 50px;
+        /* Push title below the Top-Right buttons */
+    }
+
+    /* Mobile Header Buttons Container - Fixed Top Right */
+    .header-controls {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: auto;
+        transform: none;
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        margin-top: 0;
+    }
+
+    .fullscreen-btn,
+    .theme-toggle-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        /* Slightly smaller to fix 'too big' issue */
+        padding: 0;
+        display: flex !important;
+        /* Force flex */
+        justify-content: center !important;
+        align-items: center !important;
+        line-height: 1 !important;
+        /* Fix vertical emoji alignment */
+    }
+
+    .main-container {
+        padding: 30px 15px;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .card-box {
+        width: calc(100% - 30px);
+        max-width: 100%;
+        min-height: 400px;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .card-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-header span {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .image-area {
+        min-height: 300px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Stack buttons vertically on very small screens */
+    .btn-custom {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        box-sizing: border-box;
+    }
+
+    /* Override for icon button - keep it square/circular */
+    .btn-icon {
+        width: 45px !important;
+        min-width: 45px !important;
+        height: 45px !important;
+        /* Force fixed height */
+        flex: 0 0 45px !important;
+        margin-right: 15px !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    /* Ensure SVG is large, visible and white */
+    .btn-icon svg {
+        display: block;
+        width: 24px !important;
+        /* Increased size */
+        height: 24px !important;
+        min-width: 24px !important;
+        color: white;
+        stroke: white;
+        stroke-width: 2.5;
+        /* Slightly thicker stroke */
+    }
+
+    /* Fix Save button: align text and match height */
+    .btn-custom {
+        display: inline-flex !important;
+        /* Use flex for centering */
+        align-items: center !important;
+        justify-content: center !important;
+        height: 45px !important;
+        /* Match copy button height */
+        padding: 0 30px !important;
+        /* Remove top/bottom padding */
+    }
+
+    /* CRITICAL: Ensure .hidden works even with the !important display rules above */
+    .hidden {
+        display: none !important;
+    }
+
+    .camera-btn {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Footer adjustments */
+    .site-footer {
+        padding: 30px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-col {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .footer-col h4 {
+        width: 100%;
+    }
+
+    .link-group {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Cinematic overlay adjustments */
+    .cinematic-title {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+        padding: 0 20px;
+        word-wrap: break-word;
+    }
+
+    .credits-name {
+        font-size: 1.5rem;
+    }
+
+    .credits-label {
+        font-size: 1rem;
+    }
+
+    /* Notification toast mobile positioning */
+    .keyboard-notification {
+        bottom: 20px;
+        font-size: 0.9rem;
+        padding: 12px 24px;
+        max-width: 80%;
+        word-wrap: break-word;
+    }
+
+    /* Loading spinner adjustments */
+    .loader-content {
+        width: 150px;
+    }
+
+    .loader-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Small Mobile (max 480px) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    #clapperIcon {
+        font-size: 1.5rem;
+    }
+
+    .card-box {
+        padding: 15px;
+        min-height: 350px;
+        width: calc(100% - 20px);
+    }
+
+    .btn-custom {
+        padding: 12px 20px;
+        font-size: 0.85rem;
+    }
+
+    .image-area {
+        min-height: 250px;
+    }
+
+    .cinematic-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .credits-name {
+        font-size: 1.2rem;
+    }
+
+    /* No special overrides needed for buttons on small screens anymore */
+    .fullscreen-btn,
+    .theme-toggle-btn {
+        /* Maintain size */
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+
+    /* Larger touch targets */
+    .btn-custom {
+        min-height: 48px;
+    }
+
+    #clapperIcon {
+        padding: 10px;
+    }
+
+    /* Disable hover effects on touch devices */
+    .card-box:hover {
+        transform: none;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn-custom:hover {
+        transform: none;
+    }
+
+    .image-area:hover {
+        border-color: #cbd5e1;
+        background-color: #f8fafc;
+    }
+
+    /* Enable active states instead */
+    .btn-custom:active {
+        transform: scale(0.95);
+    }
+
+    .image-area:active {
+        border-color: var(--accent-primary);
+        background: rgba(14, 165, 233, 0.1);
+    }
+}
+
+/* Landscape orientation on mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .main-container {
+        flex-direction: row;
+        padding: 20px 15px;
+    }
+
+    .card-box {
+        width: 48%;
+        min-height: 350px;
+    }
+
+    .header h1 {
+        flex-direction: row;
+        font-size: 1.3rem;
+    }
+}
+
+/* Accessibility: High contrast mode support */
+@media (prefers-contrast: high) {
+    .card-box {
+        border: 2px solid #fff;
+    }
+
+    .btn-custom {
+        border: 2px solid #fff;
+    }
+
+    .image-area {
+        border-width: 3px;
+    }
+}
+
+/* Accessibility: Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .clapper-processing,
+    .animate-title,
+    .animate-credits {
+        animation: none !important;
+    }
+}
+
+/* Print styles */
+@media print {
+
+    .header,
+    .site-footer,
+    .btn-custom,
+    .fullscreen-btn,
+    .keyboard-notification,
+    .cinematic-overlay {
+        display: none !important;
+    }
+
+    .card-box {
+        box-shadow: none;
+        border: 1px solid #000;
+        page-break-inside: avoid;
+    }
+
+    body {
+        background: white;
+    }
+}

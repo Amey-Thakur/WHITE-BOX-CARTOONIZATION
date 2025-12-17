@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<!--
+    index.html
+    ===========================================
+    Structure of the White-Box Cartoonization Web App.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White-Box Cartoonizer</title>
+
+  <!-- Google Fonts: 'Play' for the stylized futuristic look -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/theme.css">
+  <link rel="stylesheet" href="static/css/mobile.css">
+
+  <!-- Favicon (Prevents 404 errors in console) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+
+  <!-- Cropper.js CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.css">
+</head>
+
+<body>
+
+  <!-- 1. Header Section -->
+  <div class="header">
+    <h1>
+      <!-- You can add a logo icon inside this h1 if desired -->
+      <span id="clapperIcon" style="cursor: pointer; display: inline-block;">🎬</span> WHITE BOX CARTOONIZATION
+    </h1>
+
+    <!-- Header Buttons Container -->
+    <div class="header-controls">
+      <!-- Theme Toggle Button -->
+      <button id="themeToggle" class="theme-toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+      <!-- Full Screen Toggle Button -->
+      <button id="fullscreenBtn" class="fullscreen-btn" title="Toggle Fullscreen">⛶</button>
+    </div>
+  </div>
+
+  <!-- 2. Main Content Area -->
+  <div class="main-container">
+
+    <!-- Left Card: Input Image -->
+    <div class="card-box">
+      <div class="card-header">
+        <!-- 'Upload Pics' Button -->
+        <button id="uploadBtn" class="btn-custom">Upload Image</button>
+        <!-- Camera Button (Mobile Only) -->
+        <button id="cameraBtn" class="btn-custom camera-btn">Take Photo</button>
+        <!-- Hidden file input triggered by the button above -->
+        <input type="file" id="fileInput" accept="image/*" hidden>
+        <!-- Hidden camera input for mobile -->
+        <input type="file" id="cameraInput" accept="image/*" capture="environment" hidden>
+      </div>
+
+      <div class="image-area" id="inputDropZone">
+        <!-- Placeholder text before upload -->
+        <!-- Placeholder text before upload -->
+        <div id="inputPlaceholder" class="placeholder-text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            style="color: var(--accent-secondary); opacity: 0.8; margin-bottom: 1rem;">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span style="font-size: 1.1rem; color: var(--text-muted);">Drop Image Here</span>
+          <span style="font-size: 0.85rem; color: var(--text-dim); margin-top: 0.5rem;">or click 'Upload' / 'Take
+            Photo'</span>
+        </div>
+        <!-- The uploaded image preview -->
+        <img id="inputImage" class="hidden" alt="Input Image">
+      </div>
+    </div>
+
+    <!-- Right Card: Cartoonized Output -->
+    <div class="card-box">
+      <div class="card-header">
+        <span style="color: #333; font-size: 1.2rem;">Cartoonized Image</span>
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <button id="copyBtn" class="btn-custom btn-icon hidden" title="Copy to Clipboard">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </button>
+          <!-- 'Save' Button (Hidden until processing is complete) -->
+          <a id="saveBtn" class="btn-custom hidden">Save</a>
+        </div>
+      </div>
+
+      <div class="image-area">
+        <!-- Placeholder text/error messages -->
+        <!-- Placeholder text/error messages -->
+        <div id="outputPlaceholder" class="placeholder-text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            style="color: var(--accent-primary); opacity: 0.8; margin-bottom: 1rem;">
+            <path
+              d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+            </path>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+          </svg>
+          <span style="font-size: 1.1rem; color: var(--text-muted);">Cartoon Result</span>
+          <span style="font-size: 0.85rem; color: var(--text-dim); margin-top: 0.5rem;">Result will appear here</span>
+        </div>
+        <!-- Loading Spinner -->
+        <!-- Creative Pencil Loader -->
+        <div id="loadingSpinner" class="creative-loader hidden">
+          <div class="loader-content">
+            <div class="pencil">✏️</div>
+            <div class="stroke-line"></div>
+            <p>Sketching your cartoon...</p>
+          </div>
+        </div>
+        <!-- The result image -->
+        <img id="outputImage" class="hidden" alt="Cartoonized Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Cinematic Intro Overlay -->
+  <div id="movieOverlay" class="cinematic-overlay hidden">
+    <div class="cinematic-content">
+      <h1 class="cinematic-title">WHITE-BOX CARTOONIZATION</h1>
+      <div class="cinematic-credits">
+        <p class="credits-label">A Project By</p>
+        <h2 class="credits-name">Amey Thakur</h2>
+        <h2 class="credits-name">Hasan Rizvi</h2>
+        <h2 class="credits-name">Mega Satish</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Footer Section -->
+  <!-- 3. Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+
+      <!-- Column 1: Production Info -->
+      <div class="footer-col">
+        <h4>PROJECT DETAILS</h4>
+        <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING" target="_blank">6th Semester Mini-Project</a>
+        <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING" target="_blank">@ Terna Engineering College</a>
+        <p class="sub-text">Batch of 2022</p>
+      </div>
+
+      <!-- Column 2: The Cast (Authors) -->
+      <div class="footer-col">
+        <h4>DEVELOPERS</h4>
+        <a href="https://github.com/Amey-Thakur" target="_blank" class="highlight">Amey Thakur</a>
+        <a href="https://github.com/rizvihasan" target="_blank" class="highlight">Hasan Rizvi</a>
+        <a href="https://github.com/msatmod" target="_blank" class="highlight">Mega Satish</a>
+        <p class="sub-text">Group 11</p>
+      </div>
+
+      <!-- Column 3: Resources & Links -->
+      <div class="footer-col resources-col">
+        <h4>RESEARCH</h4>
+        <div class="link-group">
+          <a href="https://arxiv.org/abs/2107.04551" target="_blank">arXiv</a>
+          <span class="separator">•</span>
+          <a href="http://dx.doi.org/10.33564/IJEAST.2021.v05i12.049" target="_blank">IJEAST</a>
+          <span class="separator">•</span>
+          <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.html"
+            target="_blank">CVPR</a>
+        </div>
+
+        <h4>CONNECT</h4>
+        <div class="link-group">
+          <a href="https://youtu.be/8VNc8p6AKmw" target="_blank">YouTube Demo</a>
+          <span class="separator">•</span>
+          <a href="https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION" target="_blank">GitHub</a>
+          <span class="separator">•</span>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ameythakur20@gmail.com&su=Inquiry%20from%20White-Box%20Cartoonizer"
+            target="_blank" title="Open in Gmail">Contact</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Desktop Camera Modal -->
+  <div id="cameraModal" class="cinematic-overlay hidden"
+    style="z-index: 10001; background: rgba(2, 6, 23, 0.85); backdrop-filter: blur(8px);">
+    <div class="camera-container" style="position: relative; width: 100%; max-width: 640px; text-align: center;">
+      <h2 style="color: white; margin-bottom: 20px;">Take a Photo</h2>
+      <video id="cameraVideo" autoplay playsinline
+        style="width: 100%; border-radius: 12px; border: 2px solid var(--accent-primary); box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);"></video>
+      <canvas id="cameraCanvas" hidden></canvas>
+
+      <div class="camera-controls" style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+        <button id="captureBtn" class="btn-custom" style="min-width: 150px;">Capture</button>
+        <button id="closeCameraBtn" class="btn-custom" style="background: #ef4444; min-width: 80px;">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Editor Modal -->
+  <div id="editorModal" class="cinematic-overlay hidden"
+    style="z-index: 10002; background: rgba(2, 6, 23, 0.85); backdrop-filter: blur(8px);">
+    <div class="editor-container" style="position: relative; width: 90%; max-width: 800px; text-align: center;">
+      <h2 style="color: white; margin-bottom: 20px;">Edit Photo</h2>
+      <div style="max-height: 60vh; overflow: hidden; margin-bottom: 20px;">
+        <img id="editorImage" src="" style="max-width: 100%; display: block;">
+      </div>
+
+      <div class="editor-controls" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <div class="slider-container"
+          style="width: 100%; margin: 10px 0; display: flex; align-items: center; justify-content: center; gap: 10px;">
+          <label for="rotateSlider" style="color: white;">Rotate:</label>
+          <input type="range" id="rotateSlider" min="-180" max="180" value="0" step="1" style="width: 200px;">
+        </div>
+        <button id="cropBtn" class="btn-custom">Process</button>
+        <button id="cancelEditBtn" class="btn-custom" style="background: #ef4444;">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript Logic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.13/cropper.min.js"></script>
+  <script src="static/js/main.js?v=3"></script>
+</body>
+
+</html>
