@@ -96,24 +96,24 @@ Access at `http://localhost:5002`
 ```
 WHITE-BOX-CARTOONIZATION/
 │
-├── Source code/              # Flask application
-│   ├── app.py               # Server entry point
-│   ├── backend.py           # AI model interface
-│   ├── index.html           # Web UI
-│   ├── static/              # CSS, JS, images
-│   └── src/                 # AI implementation
-│       ├── network.py       # U-Net architecture
-│       ├── guided_filter.py # Edge refinement
-│       └── saved_models/    # Pre-trained weights
+├── Source code/                  # Flask application
+│   ├── app.py                    # Server entry point
+│   ├── backend.py                # AI model interface
+│   ├── index.html                # Web UI
+│   ├── static/                   # CSS, JS, images
+│   └── src/                      # AI implementation
+│       ├── network.py            # U-Net architecture
+│       ├── guided_filter.py      # Edge refinement
+│       └── saved_models/         # Pre-trained weights
 │
-├── Research-and-Training/    # Research materials
-│   ├── Mini-Project/        # Training code
+├── Research-and-Training/        # Research materials
+│   ├── Mini-Project/             # Training code
 │   ├── Experimental-Implementations/
 │   └── Documentation PDFs
 │
-├── .github/workflows/        # CI/CD pipeline
-├── LICENSE                   # MIT License
-└── README.md                 # This file
+├── .github/workflows/            # CI/CD pipeline
+├── LICENSE                       # MIT License
+└── README.md                     # This file
 ```
 
 **Detailed Documentation:**
