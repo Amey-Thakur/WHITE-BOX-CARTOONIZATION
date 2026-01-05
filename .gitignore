@@ -2,27 +2,28 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-
-# Virtual Environment
 venv/
 env/
-ENV/
+.env
 
-# IDE
+# TensorFlow
+Source code/src/saved_models/*
+!Source code/src/saved_models/.gitkeep
+
+# OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Model files (if large)
-*.h5
-*.pb
-
-# Test images
-test_images/
+# Temporary Files
+*.tmp
+*.bak
+*.sav
+*.old
+~*

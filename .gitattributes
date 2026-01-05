@@ -1,0 +1,26 @@
+# Standardized Git Attributes for Scholarly Archiving
+
+# Handle line endings automatically for files detected as text
+# and perform LF normalization on checkin.
+* text=auto eol=lf
+
+# Explicitly mark source files as text
+*.py text
+*.html text
+*.css text
+*.js text
+*.md text
+
+# Mark binary files
+*.pdf binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pb binary
+*.ckpt* binary
+*.meta binary
+
+# Academic/Scholarly classification
+*.pdf linguist-documentation
+*.md linguist-documentation
