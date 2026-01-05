@@ -1,17 +1,20 @@
-# White-Box Cartoonization
-
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-3.1.2-000000?style=flat&logo=flask&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=opensourceinitiative&logoColor=white)
+  [![Authors](https://img.shields.io/badge/Authors-Amey%20Thakur%20%26%20Mega%20Satish-blue.svg)](#authors)
+  [![Project Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
+  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+  [![Flask](https://img.shields.io/badge/Flask-3.1.2-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+  [![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
-An AI-powered web application that transforms photographs into cartoon-style images using deep learning.
+  # White-Box Cartoonization
+  An AI-powered web application that transforms photographs into cartoon-style images using deep learning.
 
-**[Live Demo](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION)** • **[Research Paper](https://arxiv.org/abs/2107.04551)** • **[Video Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Authors](#authors)** &nbsp;·&nbsp; **[Overview](#overview)** &nbsp;·&nbsp; **[Features](#features)** &nbsp;·&nbsp; **[Structure](#project-structure)** &nbsp;·&nbsp; **[Installation](#installation)** &nbsp;·&nbsp; **[Results](#results-gallery)** &nbsp;·&nbsp; **[License](#license)**
 
-[![Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
+  [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
+  
+  *Research implementation of White-Box Cartoonization using an Extended GAN Framework.*
 
 </div>
 
@@ -54,28 +57,17 @@ Access at `http://localhost:5002`
 
 **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/Amey-Thakur">
-<img src="https://github.com/Amey-Thakur.png" width="100px;" alt="Amey Thakur"/><br />
-<sub><b>Amey Thakur</b></sub>
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/rizvihasan">
-<img src="https://github.com/rizvihasan.png" width="100px;" alt="Hasan Rizvi"/><br />
-<sub><b>Hasan Rizvi</b></sub>
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/msatmod">
-<img src="https://github.com/msatmod.png" width="100px;" alt="Mega Satish"/><br />
-<sub><b>Mega Satish</b></sub>
-</a>
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
+  <sub><b>Amey Thakur</b></sub>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/main/Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <sub><b>Mega Satish</b></sub>
+</div>
+
+*Special thanks to **[Mega Satish](https://github.com/msatmod)** for her meaningful contributions, guidance, and support throughout the research and development of this AI implementation.*
 
 ---
 
@@ -274,13 +266,10 @@ Special thanks to Xinrui Wang and Jinze Yu for their foundational research in wh
 
 <div align="center">
 
-**[Documentation](Source%20code/README.md)** • **[Research Materials](Research-and-Training/README.md)** • **[Issues](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/issues)**
+  **[Documentation](Source%20code/README.md)** &nbsp;·&nbsp; **[Research Materials](Research-and-Training/README.md)** &nbsp;·&nbsp; **[Issues](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/issues)**
 
----
+  ---
 
-🎓 **[Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)**
-
-**Computer Engineering (B.E.) — University of Mumbai**  
-*Semester-wise curriculum, laboratories, projects, and academic notes.*
+  🔬 **[Machine Learning Laboratory](https://github.com/Amey-Thakur/MACHINE-LEARNING-LAB)** &nbsp;·&nbsp; 🎨 **[White Box Cartoonization](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)**
 
 </div>
