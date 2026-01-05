@@ -236,11 +236,12 @@ Ensure your environment meets the minimum specifications:
 <!-- LICENSE -->
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This repository and all linked academic content are made available under the **MIT License**. See the [LICENSE](LICENSE) file for complete terms.
 
-**Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original authors.
+> [!NOTE]
+> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
-**Copyright &copy; 2021** [Amey Thakur](https://github.com/Amey-Thakur), [Hasan Rizvi](https://github.com/rizvihasan), [Mega Satish](https://github.com/msatmod)
+Copyright © 2021 Amey Thakur, Hasan Rizvi, Mega Satish
 
 ---
 
