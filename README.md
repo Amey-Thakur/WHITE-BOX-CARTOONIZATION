@@ -128,7 +128,7 @@ WHITE-BOX-CARTOONIZATION/
 │
 ├── Research-and-Training/                         # Research Sandbox & Experiments
 │   ├── Experimental-Implementations/              # Notebooks & TF.js Experiments
-│   └── README.md                                  # Directory Overview
+│
 │
 ├── Source code/                                   # Production-Ready Application
 │   ├── src/                                       # Core Inference Logic
