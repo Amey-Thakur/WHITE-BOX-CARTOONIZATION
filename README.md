@@ -180,21 +180,23 @@ WHITE-BOX-CARTOONIZATION/
 ---
 
 <!-- RESULTS -->
-## Results
+## Results Gallery
 
 <div align="center">
 
-  ### Qualitative Performance Gallery
+![Result 1](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4220a8f7-999e-4077-8ac5-40f97741fdc7)
 
-  | Original | Cartoonized | Style |
-  |----------|-------------|-------|
-  | ![Original 1](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4220a8f7-999e-4077-8ac5-40f97741fdc7) | Portrait | Artistic |
-  | ![Original 2](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/780b6642-8f79-40c6-b433-9a021f86dfb3) | Landscape | Scenic |
-  | ![Original 3](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/00a77151-b78d-4215-8871-7c4c481d3fcb) | Architecture | Structural |
-  | ![Original 4](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/a5d29de7-a875-43d6-a0c5-43f0695883f8) | Nature | Botanical |
-  | ![Original 5](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/81f82daa-0130-4af6-be51-867de2b22e7c) | Urban Scene | Cityscape |
-  | ![Original 6](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4042df79-1011-4a77-980f-820217c8946e) | Interior | Ambience |
-  | ![Original 7](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3) | Group Portrait | Collective |
+![Result 2](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/780b6642-8f79-40c6-b433-9a021f86dfb3)
+
+![Result 3](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/00a77151-b78d-4215-8871-7c4c481d3fcb)
+
+![Result 4](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/a5d29de7-a875-43d6-a0c5-43f0695883f8)
+
+![Result 5](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/81f82daa-0130-4af6-be51-867de2b22e7c)
+
+![Result 6](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4042df79-1011-4a77-980f-820217c8946e)
+
+![Result 7](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3)
 
 </div>
 
@@ -266,7 +268,7 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
