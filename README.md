@@ -241,7 +241,7 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   <br>
 
-  🔬 **[Machine Learning Laboratory](https://github.com/Amey-Thakur/MACHINE-LEARNING-LAB)** &nbsp;·&nbsp; 🎨 **[White Box Cartoonization](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)**
+  🎨 **[White Box Cartoonization](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)**
 
   ---
 
