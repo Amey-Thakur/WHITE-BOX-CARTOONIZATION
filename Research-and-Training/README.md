@@ -1,19 +1,13 @@
-# Research and Training Files
+# Research and Training Sandbox
 
-This directory contains the original research implementation, training code, documentation, and related materials for the White-Box Cartoonization project.
+This directory contains experimental implementations, Jupyter notebooks, and browser-side deployments of the White-Box Cartoonization project.
 
-**Live Application**: [https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION)
+**Main Implementation**: [../Mini-Project/](../Mini-Project/)
 
 ## Directory Structure
 
 ```
 Research-and-Training/
-│
-├── Mini-Project/                      # Original training implementation
-│   ├── WBC/                           # Main training codebase
-│   ├── Demo/                          # Demonstration files
-│   ├── Files/                         # Supporting resources
-│   └── Group - B11/                   # Group project submissions
 │
 ├── Experimental-Implementations/      # Alternative approaches
 │   ├── White_box_Cartoonization.ipynb # Jupyter notebook experiments
@@ -22,13 +16,6 @@ Research-and-Training/
 │   ├── web-float16/                   # TensorFlow.js (FP16)
 │   └── web-uint8/                     # TensorFlow.js (quantized)
 │
-├── Documentation Files (PDFs)
-│   ├── WHITE-BOX...DEMO.mp4           # Demo video
-│   ├── WHITE-BOX...PRESENTATION.pdf   # Presentation slides
-│   ├── WHITE-BOX...REPORT.pdf         # Technical report
-│   ├── NOTES of WBC.pdf               # Research notes
-│   └── Mega.pdf                       # Additional documentation
-│
 └── README.md                          # This file
 ```
 
@@ -36,18 +23,19 @@ Research-and-Training/
 
 The files in this directory are primarily for:
 
-1. **Research Reference** - Understanding the training methodology
-2. **Model Training** - Reproducing or fine-tuning the model
-3. **Documentation** - Academic and technical reference material
+1. **Experimental Reference** - Understanding alternative deployment methods
+2. **Notebook Exploration** - Interactive research and visualization
+3. **Web Deployment** - Browser-based inference tests
 
-For running the main application, see the [Source code/](../Source%20code/) directory.
+For the core training implementation and academic reports, see the [Mini-Project/](../Mini-Project/) directory in the root.
 
-## Training Code
+## Technical Context
 
-The **Mini-Project/WBC/** directory contains the original training implementation with custom network layers, GAN training pipeline, data preprocessing utilities, and loss function implementations.
+The experimental implementations within this sandbox explore the performance trade-offs of different quantization methods (Float16 vs UInt8) and browser-based inference using TensorFlow.js.
 
 ## Related Documentation
 
 - **Main README**: [../README.md](../README.md) - Complete project overview
+- **Mini-Project Implementation**: [../Mini-Project/](../Mini-Project/) - Training resources
 - **Production App**: [../Source code/](../Source%20code/) - Flask application
 

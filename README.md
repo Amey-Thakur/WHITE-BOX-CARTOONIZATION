@@ -11,7 +11,7 @@
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
-  **[Source Code](Source%20code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Source Code](Source%20code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
 
   [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
 
@@ -83,8 +83,8 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 | # | Resource | Description | Date | Link |
 |---|---|---|---|---|
 | 1 | **Project Repository** | Complete source code and production weights | — | [View](Source%20code/) |
-| 2 | **Technical Report** | Comprehensive archival project documentation | 2021 | [View](Research-and-Training/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) |
-| 3 | **Technical Presentation** | Visual overview of the model architecture | 2021 | [View](Research-and-Training/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20PRESENTATION.pdf) |
+| 2 | **Technical Report** | Comprehensive archival project documentation | 2021 | [View](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) |
+| 3 | **Technical Presentation** | Visual overview of the model architecture | 2021 | [View](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) |
 | 4 | **Project Demo (YouTube)** | Real-time demonstration of the web portal | — | [View](https://youtu.be/8VNc8p6AKmw) |
 | 5 | **Scholarly Preprint** | Formal research manuscript (arXiv version) | 2021 | [View](https://arxiv.org/pdf/2107.04551.pdf) |
 
@@ -119,14 +119,16 @@ WHITE-BOX-CARTOONIZATION/
 ├── Mega/                                          # Archival Attribution Assets
 │   └── Mega.png                                   # Author Profile Image (Mega Satish)
 │
-├── Research-and-Training/                         # Academic & Research Core
-│   ├── Mini-Project/                              # Training Implementation & Data
-│   │   ├── WBC/                                   # Core Training Script Manifest
-│   │   ├── Files/                                 # Visualization & Research Data
-│   │   └── Demo/                                  # Qualitative Performance Videos
+├── Mini-Project/                                  # Academic & Research Core
+│   ├── WBC/                                       # Core Training Script Manifest
+│   ├── Files/                                     # Visualization & Research Data
+│   ├── Figures/                                   # System Diagrams & Architecture
+│   ├── Draft/                                     # Technical Manuscripts & Drafts
+│   └── Demo/                                      # Qualitative Performance Videos
+│
+├── Research-and-Training/                         # Research Sandbox & Experiments
 │   ├── Experimental-Implementations/              # Notebooks & TF.js Experiments
-│   ├── WHITE-BOX...PRESENTATION.pdf               # Technical Presentation Assets
-│   └── WHITE-BOX...REPORT.pdf                     # Formal Academic Report
+│   └── README.md                                  # Directory Overview
 │
 ├── Source code/                                   # Production-Ready Application
 │   ├── src/                                       # Core Inference Logic
@@ -156,16 +158,16 @@ WHITE-BOX-CARTOONIZATION/
 <div align="center">
 
   ### AI Model Architecture
-  ![Model Architecture](Research-and-Training/Mini-Project/WBC/images/method.jpg)
+  ![Model Architecture](Mini-Project/WBC/images/method.jpg)
 
   ### System Use Cases
-  ![Use Cases](Research-and-Training/Mini-Project/WBC/images/use_cases.jpg)
+  ![Use Cases](Mini-Project/WBC/images/use_cases.jpg)
 
   ### GAN Learning Visualization
-  ![GAN Tree](Research-and-Training/Mini-Project/Files/GAN-Tree.gif)
+  ![GAN Tree](Mini-Project/Files/GAN-Tree.gif)
 
   ### Qualitative Analysis (Shinjuku Dataset)
-  ![Qualitative](Research-and-Training/Mini-Project/WBC/paper/shinjuku.jpg)
+  ![Qualitative](Mini-Project/WBC/paper/shinjuku.jpg)
 
 </div>
 
