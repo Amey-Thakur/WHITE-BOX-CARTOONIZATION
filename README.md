@@ -21,7 +21,7 @@
 
 <div align="center">
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#system-architecture--design-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -116,28 +116,53 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 ```bash
 WHITE-BOX-CARTOONIZATION/
 │
-├── docs/                                          # Technical Specification & Policy
-│   └── SPECIFICATION.md                           # Detailed System Architecture
+├── docs/                                          # Formal Documentation
+│   └── SPECIFICATION.md                           # Technical Architecture & Spec
 │
 ├── Mega/                                          # Archival Attribution Assets
 │   └── Mega.png                                   # Author Profile Image (Mega Satish)
 │
-├── Mini-Project/                                  # Academic & Research Core
-│   ├── WBC/                                       # Core Training Script Manifest
-│   ├── Files/                                     # Visualization & Research Data
+├── Mini-Project/                                  # Research & Training Materials
+│   ├── Draft/                                     # Early Manuscripts & Design Drafts
+│   │   ├── MINI-PROJECT_TE-COMPS_B-50,51,58.docx  # Working Research Manuscript
+│   │   └── USE CASE.drawio                        # System Interaction Logic
 │   ├── Figures/                                   # System Diagrams & Architecture
-│   ├── Draft/                                     # Technical Manuscripts & Drafts
-│   ├── Demo/                                      # Qualitative Performance Videos
-│   └── Experimental-Implementations/              # Notebooks & TF.js Experiments
+│   │   ├── GAN-Tree.gif                           # GAN Learning Progression
+│   │   └── Presentation1.pptx                     # Graphic Presentation Assets
+│   ├── Files/                                     # Visualization & Research Data
+│   │   ├── PAPER.pdf                              # Published Research Paper (IJEAST)
+│   │   └── WHITE-BOX CARTOONIZATION REPORT.pdf    # Comprehensive Project Report
+│   ├── Group - B11 [Amey, Mega & Hasan]/          # Official Academic Submission
+│   │   ├── B-11.jpeg                              # Team Identification Record
+│   │   ├── MINI-PROJECT_REVIEW-1.pptx             # Technical Review Presentation
+│   │   └── MINI-PROJECT_TE-COMPS.mp4              # System Demonstration Video
+│   ├── WBC/                                       # Core Training Script Manifest
+│   │   ├── train_code/                            # Generative Training Implementation
+│   │   │   ├── network.py                         # U-Net Logic Definition
+│   │   │   ├── train.py                           # Model Training Workflow
+│   │   │   └── loss.py                            # Multi-Objective Loss Functions
+│   │   ├── test_code/                             # Inference Validation Environment
+│   │   │   ├── cartoonize.py                      # Batch Cartoonization Script
+│   │   │   └── cartoonized_images/                # Validation Result Manifest
+│   │   └── paper/                                 # Research Publications & Assets
+│   │       ├── 06791.pdf                          # CVPR 2020 Foundation Paper
+│   │       └── shinjuku.jpg                       # Qualitative Analysis Sample
+│   └── Experimental-Implementations/              # Node.js & TF.js Research
 │
-├── Source code/                                   # Production-Ready Application
-│   ├── src/                                       # Core Inference Logic
-│   │   ├── saved_models/                          # Pre-trained Model Weights
+├── Source code/                                   # Real-Time Web Application (Flask)
+│   ├── src/                                       # Core Inference Framework
+│   │   ├── saved_models/                          # Pre-trained GAN State Manifest
+│   │   │   ├── checkpoint                         # TensorFlow Checkpoint Metadata
+│   │   │   └── model-33999.index                  # Pre-trained Model Index
 │   │   ├── network.py                             # U-Net Architecture Definition
-│   │   └── guided_filter.py                       # Mathematical Refinement Layer
+│   │   ├── guided_filter.py                       # Mathematical Refinement Layer
+│   │   └── cartoonize.py                          # Frontend Logic Liaison
 │   ├── static/                                    # Frontend Presentation Assets
-│   │   ├── css/                                   # Dynamic Styling (Mobile/Theme)
-│   │   └── js/main.js                             # Asynchronous UI Orchestration
+│   │   ├── css/                                   # Dynamic Presentation Logic
+│   │   │   ├── theme.css                          # Dark/Light Mode Orchestration
+│   │   │   └── mobile.css                         # Responsive Design Definitions
+│   │   ├── js/main.js                             # Asynchronous UI Orchestration
+│   │   └── images/                                # UI Brand & Media Assets
 │   ├── app.py                                     # Flask Web Entry Gateway
 │   ├── backend.py                                 # GAN Processing Liaison
 │   └── index.html                                 # Application Frontend Blueprint
@@ -148,27 +173,28 @@ WHITE-BOX-CARTOONIZATION/
 ├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
 ├── README.md                                      # Comprehensive Archival Entrance
-└── SECURITY.md                                    # Vulnerability Exposure Policy
+├── SECURITY.md                                    # Vulnerability Exposure Policy
+└── walkthrough.md                                 # Technical Proof of Work
 ```
 
 ---
 
 <!-- RESULTS -->
-## System Architecture & Design Gallery
+## Results
 
 <div align="center">
 
-  ### AI Model Architecture
-  ![Model Architecture](Mini-Project/WBC/images/method.jpg)
+  ### Qualitative Performance Gallery
 
-  ### System Use Cases
-  ![Use Cases](Mini-Project/WBC/images/use_cases.jpg)
-
-  ### GAN Learning Visualization
-  ![GAN Tree](Mini-Project/Files/GAN-Tree.gif)
-
-  ### Qualitative Analysis (Shinjuku Dataset)
-  ![Qualitative](Mini-Project/WBC/paper/shinjuku.jpg)
+  | Original | Cartoonized | Style |
+  |----------|-------------|-------|
+  | ![Original 1](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4220a8f7-999e-4077-8ac5-40f97741fdc7) | Portrait | Artistic |
+  | ![Original 2](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/780b6642-8f79-40c6-b433-9a021f86dfb3) | Landscape | Scenic |
+  | ![Original 3](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/00a77151-b78d-4215-8871-7c4c481d3fcb) | Architecture | Structural |
+  | ![Original 4](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/a5d29de7-a875-43d6-a0c5-43f0695883f8) | Nature | Botanical |
+  | ![Original 5](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/81f82daa-0130-4af6-be51-867de2b22e7c) | Urban Scene | Cityscape |
+  | ![Original 6](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/4042df79-1011-4a77-980f-820217c8946e) | Interior | Ambience |
+  | ![Original 7](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/assets/54937357/fb76a900-5b29-4930-9f37-b7ca2d7b0df3) | Group Portrait | Collective |
 
 </div>
 
@@ -240,7 +266,7 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#system-architecture--design-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
