@@ -1,9 +1,9 @@
 # =============================================================================
 # Project: WHITE-BOX-CARTOONIZATION
-# Authors: Amey Thakur & Mega Satish
+# Authors: Amey Thakur, Hasan Rizvi & Mega Satish
 # Date: 2021-08-28
 # Repository: https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION
-# Profiles: https://github.com/Amey-Thakur | https://github.com/msatmod
+# Profiles: https://github.com/Amey-Thakur | https://github.com/rizvihasan | https://github.com/msatmod
 # =============================================================================
 
 """

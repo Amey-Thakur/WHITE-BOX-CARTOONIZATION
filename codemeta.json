@@ -24,9 +24,9 @@
         },
         {
             "@type": "Person",
-            "givenName": "Mega",
-            "familyName": "Satish",
-            "id": "https://github.com/msatmod",
+            "givenName": "Hasan",
+            "familyName": "Rizvi",
+            "id": "https://github.com/rizvihasan",
             "affiliation": {
                 "@type": "Organization",
                 "name": "Terna Engineering College"
@@ -34,9 +34,9 @@
         },
         {
             "@type": "Person",
-            "givenName": "Hasan",
-            "familyName": "Rizvi",
-            "id": "https://github.com/rizvihasan",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://github.com/msatmod",
             "affiliation": {
                 "@type": "Organization",
                 "name": "Terna Engineering College"
