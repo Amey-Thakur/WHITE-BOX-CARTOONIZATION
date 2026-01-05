@@ -1,0 +1,65 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "White-Box Cartoonization",
+    "description": "An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).",
+    "identifier": "WHITE-BOX-CARTOONIZATION",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://github.com/msatmod",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hasan",
+            "familyName": "Rizvi",
+            "id": "https://github.com/rizvihasan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2021-08-28",
+    "codeRepository": "https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Python 3.8+",
+        "TensorFlow 2.x",
+        "Flask 3.1.2"
+    ],
+    "applicationCategory": "Artificial Intelligence / Image Processing",
+    "keywords": [
+        "White-Box Cartoonization",
+        "Generative Adversarial Networks",
+        "GANs",
+        "TensorFlow",
+        "Flask",
+        "Image Stylization",
+        "Machine Learning",
+        "Computer Engineering"
+    ]
+}
