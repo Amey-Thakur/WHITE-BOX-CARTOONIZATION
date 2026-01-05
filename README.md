@@ -7,7 +7,7 @@
   ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Backend](https://img.shields.io/badge/Backend-Python%20%7C%20TensorFlow%20%7C%20Flask-blueviolet)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
   [![Research](https://img.shields.io/badge/Research-IJEAST%20%7C%20arXiv-orange)](https://arxiv.org/abs/2107.04551)
-  [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
+  [![Developed by Amey Thakur, Mega Satish & Hasan Rizvi](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Mega%20Satish%20%26%20Hasan%20Rizvi-blue)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
