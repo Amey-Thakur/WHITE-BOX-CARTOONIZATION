@@ -1,4 +1,11 @@
 /**
+ * =============================================================================
+ * Project: WHITE-BOX-CARTOONIZATION
+ * Authors: Amey Thakur & Mega Satish
+ * Date: 2021-08-28
+ * Repository: https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION
+ * Profiles: https://github.com/Amey-Thakur | https://github.com/msatmod
+ * =============================================================================
  * main.js
  * =============================================================================
  * This file handles the behavior of the webpage.
