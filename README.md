@@ -70,6 +70,8 @@
 
 Developed as a mini-project for the **Machine Learning Laboratory** curriculum, this project integrates cutting-edge deep learning research with a production-ready Flask web gateway, demonstrating the end-to-end lifecycle of an AI application.
 
+![GAN Learning Progression](Mini-Project/Files/GAN-Tree.gif)
+
 > [!IMPORTANT]
 > **Research Impact**
 >
@@ -128,6 +130,7 @@ WHITE-BOX-CARTOONIZATION/
 │   ├── Experimental-Implementations/              # Node.js & TF.js Research
 │   ├── Figures/                                   # System Diagrams & Architecture
 │   ├── Files/                                     # Visualization & Research Data
+│   │   └── GAN-Tree.gif                           # GAN Learning Progression
 │   ├── Group - B11 [Amey, Mega & Hasan]/          # Official Academic Submission
 │   ├── WBC/                                       # Core Training Script Manifest
 │   ├── IJEAST-V5I12 - White-Box Cartoonization... # Published Research Paper (IJEAST)
