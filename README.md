@@ -116,6 +116,9 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 ```bash
 WHITE-BOX-CARTOONIZATION/
 │
+├── docs/                                          # Technical Specification & Policy
+│   └── SPECIFICATION.md                           # Detailed System Architecture
+│
 ├── Mega/                                          # Archival Attribution Assets
 │   └── Mega.png                                   # Author Profile Image (Mega Satish)
 │
