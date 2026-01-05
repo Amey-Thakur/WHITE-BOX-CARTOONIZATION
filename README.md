@@ -11,7 +11,7 @@
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Live Demo](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
 
   [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
 
