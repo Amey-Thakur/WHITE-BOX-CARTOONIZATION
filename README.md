@@ -11,7 +11,7 @@
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
-  **[Source Code](Source%20code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Mini-Project](Mini-Project/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Project Demo](https://youtu.be/8VNc8p6AKmw)**
 
   [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
 
@@ -86,7 +86,7 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 
 | # | Resource | Description | Date | Link |
 |---|---|---|---|---|
-| 1 | **Project Repository** | Complete source code and production weights | — | [View](Source%20code/) |
+| 1 | **Project Repository** | Complete source code and production weights | — | [View](Source%20Code/) |
 | 2 | **Technical Report** | Comprehensive archival project documentation | 2021 | [View](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) |
 | 3 | **Technical Presentation** | Visual overview of the model architecture | 2021 | [View](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) |
 | 4 | **Project Demo (YouTube)** | Real-time demonstration of the web portal | — | [View](https://youtu.be/8VNc8p6AKmw) |
