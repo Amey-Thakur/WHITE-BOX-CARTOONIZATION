@@ -70,7 +70,9 @@
 
 Developed as a mini-project for the **Machine Learning Laboratory** curriculum, this project integrates cutting-edge deep learning research with a production-ready Flask web gateway, demonstrating the end-to-end lifecycle of an AI application.
 
-![GAN Learning Progression](Mini-Project/Files/GAN-Tree.gif)
+<div align="center">
+  <img src="Mini-Project/Files/GAN-Tree.gif" alt="GAN Learning Progression">
+</div>
 
 > [!IMPORTANT]
 > **Research Impact**
