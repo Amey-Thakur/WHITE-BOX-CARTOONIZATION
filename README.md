@@ -149,6 +149,7 @@ WHITE-BOX-CARTOONIZATION/
 │
 ├── .gitattributes                                 # Global Git LFS & Config
 ├── .gitignore                                     # Asset Exclusion Manifest
+├── requirements.txt                               # Dependency Manifest
 ├── CITATION.cff                                   # Scholarly Citation Metadata
 ├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
