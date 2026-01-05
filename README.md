@@ -140,7 +140,7 @@ WHITE-BOX-CARTOONIZATION/
 │   ├── MINI-PROJECT_PRESENTATION...               # Technical Presentation (PPTX)
 │   └── WHITE-BOX CARTOONIZATION REPORT.pdf        # Comprehensive Project Report
 │
-├── Source code/                                   # Real-Time Web Application (Flask)
+├── Source Code/                                   # Real-Time Web Application (Flask)
 │   ├── src/                                       # Core Inference Framework
 │   ├── static/                                    # Frontend Presentation Assets
 │   ├── app.py                                     # Flask Web Entry Gateway
@@ -204,7 +204,7 @@ Ensure your environment meets the minimum specifications:
 ### 3. Launch Application
 1.  **Start the Server**:
     ```bash
-    cd "Source code"
+    cd "Source Code"
     python app.py
     ```
 2.  **Access Web Gateway**:
