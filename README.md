@@ -57,7 +57,7 @@
   </tr>
   </table>
 
-  *Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.*
+  *Special thanks to [Mega Satish](https://github.com/msatmod) and [Hasan Rizvi](https://github.com/rizvihasan) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 </div>
 
@@ -124,10 +124,8 @@ WHITE-BOX-CARTOONIZATION/
 │   ├── Files/                                     # Visualization & Research Data
 │   ├── Figures/                                   # System Diagrams & Architecture
 │   ├── Draft/                                     # Technical Manuscripts & Drafts
-│   └── Demo/                                      # Qualitative Performance Videos
-│
-├── Research-and-Training/                         # Research Sandbox & Experiments
-│   ├── Experimental-Implementations/              # Notebooks & TF.js Experiments
+│   ├── Demo/                                      # Qualitative Performance Videos
+│   └── Experimental-Implementations/              # Notebooks & TF.js Experiments
 │
 ├── Source code/                                   # Production-Ready Application
 │   ├── src/                                       # Core Inference Logic
@@ -217,7 +215,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 <!-- ABOUT -->
 ## About This Repository
 
-**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur), [Hasan Rizvi](https://github.com/rizvihasan) & [Mega Satish](https://github.com/msatmod)  
+**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod) & [Hasan Rizvi](https://github.com/rizvihasan)  
 **Academic Journey**: Bachelor of Engineering in Computer Engineering (2018-2022)  
 **Institution**: [Terna Engineering College](https://ternaengg.ac.in/), Navi Mumbai  
 **University**: [University of Mumbai](https://mu.ac.in/)
@@ -228,7 +226,7 @@ This repository serves as a permanent technical record for **White-Box Cartooniz
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Hasan Rizvi](https://github.com/rizvihasan)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
 
 Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoon Representations"* (Xinrui Wang and Jinze Yu, CVPR 2020) for their foundational research.
 

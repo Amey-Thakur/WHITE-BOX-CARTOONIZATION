@@ -27,7 +27,7 @@ Mini-Project/
 ## Related Directories
 
 - **Production App**: [../Source code/](../Source%20code/) - Flask web application
-- **Experiments**: [../Research-and-Training/Experimental-Implementations/](../Research-and-Training/Experimental-Implementations/) - Browser implementations
-- **Research Sandbox**: [../Research-and-Training/](../Research-and-Training/) - Experimental sandbox
+- **Experiments**: [Experimental-Implementations/](Experimental-Implementations/) - Browser implementations
+- **Research Docs**: [./](.) - Papers and presentations
  - Papers and presentations
 
