@@ -129,7 +129,6 @@ WHITE-BOX-CARTOONIZATION/
 ├── Research-and-Training/                         # Research Sandbox & Experiments
 │   ├── Experimental-Implementations/              # Notebooks & TF.js Experiments
 │
-│
 ├── Source code/                                   # Production-Ready Application
 │   ├── src/                                       # Core Inference Logic
 │   │   ├── saved_models/                          # Pre-trained Model Weights
