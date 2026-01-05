@@ -122,47 +122,22 @@ WHITE-BOX-CARTOONIZATION/
 ├── Mega/                                          # Archival Attribution Assets
 │   └── Mega.png                                   # Author Profile Image (Mega Satish)
 │
-├── Mini-Project/                                  # Research & Training Materials
+├── Mini-Project/                                  # Research, Demos & Training Materials
+│   ├── Demo/                                      # Functional System Demonstrations
 │   ├── Draft/                                     # Early Manuscripts & Design Drafts
-│   │   ├── MINI-PROJECT_TE-COMPS_B-50,51,58.docx  # Working Research Manuscript
-│   │   └── USE CASE.drawio                        # System Interaction Logic
+│   ├── Experimental-Implementations/              # Node.js & TF.js Research
 │   ├── Figures/                                   # System Diagrams & Architecture
-│   │   ├── GAN-Tree.gif                           # GAN Learning Progression
-│   │   └── Presentation1.pptx                     # Graphic Presentation Assets
 │   ├── Files/                                     # Visualization & Research Data
-│   │   ├── PAPER.pdf                              # Published Research Paper (IJEAST)
-│   │   └── WHITE-BOX CARTOONIZATION REPORT.pdf    # Comprehensive Project Report
 │   ├── Group - B11 [Amey, Mega & Hasan]/          # Official Academic Submission
-│   │   ├── B-11.jpeg                              # Team Identification Record
-│   │   ├── MINI-PROJECT_REVIEW-1.pptx             # Technical Review Presentation
-│   │   └── MINI-PROJECT_TE-COMPS.mp4              # System Demonstration Video
 │   ├── WBC/                                       # Core Training Script Manifest
-│   │   ├── train_code/                            # Generative Training Implementation
-│   │   │   ├── network.py                         # U-Net Logic Definition
-│   │   │   ├── train.py                           # Model Training Workflow
-│   │   │   └── loss.py                            # Multi-Objective Loss Functions
-│   │   ├── test_code/                             # Inference Validation Environment
-│   │   │   ├── cartoonize.py                      # Batch Cartoonization Script
-│   │   │   └── cartoonized_images/                # Validation Result Manifest
-│   │   └── paper/                                 # Research Publications & Assets
-│   │       ├── 06791.pdf                          # CVPR 2020 Foundation Paper
-│   │       └── shinjuku.jpg                       # Qualitative Analysis Sample
-│   └── Experimental-Implementations/              # Node.js & TF.js Research
+│   ├── IJEAST-V5I12 - White-Box Cartoonization... # Published Research Paper (IJEAST)
+│   ├── Preprint - White-Box Cartoonization...     # Formal Research Manuscript (arXiv)
+│   ├── MINI-PROJECT_PRESENTATION...               # Technical Presentation (PPTX)
+│   └── WHITE-BOX CARTOONIZATION REPORT.pdf        # Comprehensive Project Report
 │
 ├── Source code/                                   # Real-Time Web Application (Flask)
 │   ├── src/                                       # Core Inference Framework
-│   │   ├── saved_models/                          # Pre-trained GAN State Manifest
-│   │   │   ├── checkpoint                         # TensorFlow Checkpoint Metadata
-│   │   │   └── model-33999.index                  # Pre-trained Model Index
-│   │   ├── network.py                             # U-Net Architecture Definition
-│   │   ├── guided_filter.py                       # Mathematical Refinement Layer
-│   │   └── cartoonize.py                          # Frontend Logic Liaison
 │   ├── static/                                    # Frontend Presentation Assets
-│   │   ├── css/                                   # Dynamic Presentation Logic
-│   │   │   ├── theme.css                          # Dark/Light Mode Orchestration
-│   │   │   └── mobile.css                         # Responsive Design Definitions
-│   │   ├── js/main.js                             # Asynchronous UI Orchestration
-│   │   └── images/                                # UI Brand & Media Assets
 │   ├── app.py                                     # Flask Web Entry Gateway
 │   ├── backend.py                                 # GAN Processing Liaison
 │   └── index.html                                 # Application Frontend Blueprint
@@ -173,8 +148,7 @@ WHITE-BOX-CARTOONIZATION/
 ├── codemeta.json                                  # Software Metadata Manifest
 ├── LICENSE                                        # MIT License Terms
 ├── README.md                                      # Comprehensive Archival Entrance
-├── SECURITY.md                                    # Vulnerability Exposure Policy
-└── walkthrough.md                                 # Technical Proof of Work
+└── SECURITY.md                                    # Vulnerability Exposure Policy
 ```
 
 ---
