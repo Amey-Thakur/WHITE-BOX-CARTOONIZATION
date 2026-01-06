@@ -77,10 +77,11 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 > [!IMPORTANT]
 > **Research Impact**
 >
-> This project was published as a research paper in the **International Journal of Engineering Applied Sciences and Technology (IJEAST)** (Volume 5, Issue 12) and is also available as a preprint on **arXiv**.
+> This project was published as a research paper in the **International Journal of Engineering Applied Sciences and Technology (IJEAST)** (Volume 5, Issue 12) and is also available as a preprint on **arXiv**. The project received an official **Publication Certificate** for its research contribution to machine learning education.
 >
 > - [Preprint @arXiv](https://arxiv.org/abs/2107.04551)
 > - [Published Paper @IJEAST](http://dx.doi.org/10.33564/IJEAST.2021.v05i12.049)
+> - [Publication Certificate](Mini-Project/IJEAST-V5I12%20-%20White-Box%20Cartoonization%20Using%20An%20Extended%20GAN%20Framework.pdf)
 
 ### Resources
 
@@ -111,6 +112,11 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 - **Backend**: Python 3.8+, Flask 3.1.2
 - **Frontend**: Vanilla JS, CSS3 (Custom Theme System)
 - **Utilities**: OpenCV, NumPy, Guided Filter algorithm
+
+> [!TIP]
+> **Optimized Model Inference**
+>
+> For faster inference on high-resolution images, consider enabling GPU acceleration via TensorFlow-GPU. Ensure CUDA and cuDNN are correctly installed and configured to leverage parallel processing for the GAN's forward pass.
 
 ---
 
@@ -190,6 +196,11 @@ Ensure your environment meets the minimum specifications:
 - **Python**: Version **3.8** or higher.
 - **Hardware**: 4GB Minimum RAM (8GB recommended for inference).
 - **Environment**: Virtual environment (venv) is highly recommended.
+
+> [!WARNING]
+> **Technical Dependencies & Environment**
+>
+> This system is built using **TensorFlow 2.x** and **Python 3.8+**. For stable execution and educational reference, it is recommended to run this in an isolated virtual environment to align with the baseline deep learning framework requirements and avoid dependency conflicts.
 
 ### 2. Setup & Deployment
 1.  **Clone the Repository**:
