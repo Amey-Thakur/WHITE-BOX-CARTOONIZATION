@@ -1,5 +1,6 @@
-flask
-opencv-python
-numpy
-tensorflow
-tf_slim
+flask==3.0.0
+opencv-python-headless==4.9.0.80
+numpy<2.0.0
+tensorflow==2.15.0
+tf_slim==1.1.0
+gunicorn==21.2.0

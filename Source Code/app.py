@@ -90,6 +90,5 @@ def cartoonize():
 if __name__ == '__main__':
     # Start the server on all network interfaces (0.0.0.0) so it's accessible from mobile devices
     # debug=True allows for easier error messages during development
-    print("Server starting on http://localhost:5002")
-    print("Also accessible on your network at http://192.168.12.3:5002")
-    app.run(host='0.0.0.0', debug=True, port=5002)
+    print("Server starting on http://localhost:7860")
+    app.run(host='0.0.0.0', debug=False, port=7860)

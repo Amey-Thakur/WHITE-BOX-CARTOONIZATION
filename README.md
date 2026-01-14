@@ -1,3 +1,13 @@
+---
+title: White Box Cartoonization
+emoji: 🎨
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
 <div align="center">
 
   <a name="readme-top"></a>
@@ -11,7 +21,7 @@
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/8VNc8p6AKmw)** &nbsp;·&nbsp; **[Live Demo](https://huggingface.co/spaces/ameythakur/white-box-cartoonization)**
 
   [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
 
