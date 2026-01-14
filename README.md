@@ -11,7 +11,7 @@
 
   An AI-powered web application that transforms photographs into cartoon-style images using deep learning, utilizing a white-box representation framework and Generative Adversarial Networks (GANs).
 
-  **[Source Code](Source%20Code/)** &nbsp;&middot;&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;&middot;&nbsp; **[Live Demo](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)** &nbsp;&middot;&nbsp; **[Video Demo](https://youtu.be/8VNc8p6AKmw)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](https://arxiv.org/abs/2107.04551)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/8VNc8p6AKmw)**
 
   [![White Box Cartoonization Demo](https://img.youtube.com/vi/8VNc8p6AKmw/0.jpg)](https://youtu.be/8VNc8p6AKmw)
 
@@ -34,32 +34,14 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-  <table>
-  <tr>
-  <td align="center">
-  <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
-  <sub><b>Amey Thakur</b></sub>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/rizvihasan">
-  <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
-  <sub><b>Hasan Rizvi</b></sub>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="https://raw.githubusercontent.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/main/Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub>
-  </a>
-  </td>
-  </tr>
-  </table>
-
-  *Special thanks to [Hasan Rizvi](https://github.com/rizvihasan) and [Mega Satish](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.*
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github)](https://github.com/rizvihasan) | <a href="https://github.com/msatmod"><img src="https://raw.githubusercontent.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION/main/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| :---: | :---: | :---: |
 
 </div>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 
@@ -74,8 +56,8 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
   <img src="Mini-Project/Files/GAN-Tree.gif" alt="GAN Learning Progression">
 </div>
 
-> [!IMPORTANT]
-> **Research Impact**
+> [!NOTE]
+> **Research Impact & Certification**
 >
 > This project was published as a research paper in the **International Journal of Engineering Applied Sciences and Technology (IJEAST)** (Volume 5, Issue 12) and is also available as a preprint on **arXiv**. The project received an official **Publication Certificate** for its research contribution to machine learning education.
 >
@@ -85,13 +67,19 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 
 ### Resources
 
-| # | Resource | Description | Date | Link |
+| # | Resource | Description | Date | Marks |
 |---|---|---|---|---|
-| 1 | **Project Repository** | Complete source code and production weights | — | [View](Source%20Code/) |
-| 2 | **Technical Report** | Comprehensive archival project documentation | 2021 | [View](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) |
-| 3 | **Technical Presentation** | Visual overview of the model architecture | 2021 | [View](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) |
-| 4 | **Project Demo (YouTube)** | Real-time demonstration of the web portal | — | [View](https://youtu.be/8VNc8p6AKmw) |
-| 5 | **Scholarly Preprint** | Formal research manuscript (arXiv version) | 2021 | [View](https://arxiv.org/pdf/2107.04551.pdf) |
+| 1 | [**Source Code**](Source%20Code/) | Complete production repository and weights | — | — |
+| 2 | [**Technical Specification**](docs/SPECIFICATION.md) | System architecture and specifications | May 2021 | — |
+| 3 | [**Technical Report**](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) | Comprehensive archival project documentation | 2021 | — |
+| 4 | [**Technical Presentation**](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) | Visual overview of the model architecture | 2021 | — |
+| 5 | [**Publication Certificate**](Mini-Project/IJEAST-V5I12%20-%20White-Box%20Cartoonization%20Using%20An%20Extended%20GAN%20Framework.pdf) | Recognition for research excellence | July 2021 | — |
+| 6 | [**Machine Learning Lab**](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION) | Computer Engineering Laboratory Repository | — | — |
+
+> [!TIP]
+> **Optimized Model Inference**
+>
+> For faster inference on high-resolution images, consider enabling GPU acceleration via TensorFlow-GPU. Ensure CUDA and cuDNN are correctly installed and configured to leverage parallel processing for the GAN's forward pass.
 
 ---
 
@@ -113,54 +101,50 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 - **Frontend**: Vanilla JS, CSS3 (Custom Theme System)
 - **Utilities**: OpenCV, NumPy, Guided Filter algorithm
 
-> [!TIP]
-> **Optimized Model Inference**
->
-> For faster inference on high-resolution images, consider enabling GPU acceleration via TensorFlow-GPU. Ensure CUDA and cuDNN are correctly installed and configured to leverage parallel processing for the GAN's forward pass.
-
 ---
 
 <!-- STRUCTURE -->
 ## Project Structure
 
-```bash
+```python
 WHITE-BOX-CARTOONIZATION/
 │
-├── docs/                                          # Formal Documentation
-│   └── SPECIFICATION.md                           # Technical Architecture & Spec
+├── docs/                                    # Formal Documentation
+│   └── SPECIFICATION.md                     # Technical Architecture & Specification
 │
-├── Mega/                                          # Archival Attribution Assets
-│   └── Mega.png                                   # Author Profile Image (Mega Satish)
+├── Mega/                                    # Archival Attribution Assets
+│   ├── Filly.jpg                            # Companion (Filly)
+│   └── Mega.png                             # Author Profile Image (Mega Satish)
 │
-├── Mini-Project/                                  # Research, Demos & Training Materials
-│   ├── Demo/                                      # Functional System Demonstrations
-│   ├── Draft/                                     # Early Manuscripts & Design Drafts
-│   ├── Experimental-Implementations/              # Node.js & TF.js Research
-│   ├── Figures/                                   # System Diagrams & Architecture
-│   ├── Files/                                     # Visualization & Research Data
-│   │   └── GAN-Tree.gif                           # GAN Learning Progression
-│   ├── Group - B11 [Amey, Mega & Hasan]/          # Official Academic Submission
-│   ├── WBC/                                       # Core Training Script Manifest
-│   ├── IJEAST-V5I12 - White-Box Cartoonization... # Published Research Paper (IJEAST)
-│   ├── Preprint - White-Box Cartoonization...     # Formal Research Manuscript (arXiv)
-│   ├── MINI-PROJECT_PRESENTATION...               # Technical Presentation (PPTX)
-│   └── WHITE-BOX CARTOONIZATION REPORT.pdf        # Comprehensive Project Report
+├── Mini-Project/                            # Research, Demos & Training Materials
+│   ├── Demo/                                # Functional System Demonstrations
+│   ├── Draft/                               # Early Manuscripts & Design Drafts
+│   ├── Experimental-Implementations/        # Node.js & TF.js Research
+│   ├── Figures/                             # System Diagrams & Architecture
+│   ├── Files/                               # Visualization & Research Data
+│   │   └── GAN-Tree.gif                     # GAN Learning Progression
+│   ├── Group - B11/                         # Official Academic Submission
+│   ├── WBC/                                 # Core Training Script Manifest
+│   ├── IJEAST-V5I12 - White-Box...          # Published Research Paper (IJEAST)
+│   ├── Preprint - White-Box...              # Formal Research Manuscript (arXiv)
+│   ├── MINI-PROJECT_PRESENTATION...         # Technical Presentation (PPTX)
+│   └── WHITE-BOX CARTOONIZATION REPORT.pdf  # Comprehensive Project Report
 │
-├── Source Code/                                   # Real-Time Web Application (Flask)
-│   ├── src/                                       # Core Inference Framework
-│   ├── static/                                    # Frontend Presentation Assets
-│   ├── app.py                                     # Flask Web Entry Gateway
-│   ├── backend.py                                 # GAN Processing Liaison
-│   └── index.html                                 # Application Frontend Blueprint
+├── Source Code/                             # Real-Time Web Application (Flask)
+│   ├── src/                                 # Core Inference Framework
+│   ├── static/                              # Frontend Presentation Assets
+│   ├── app.py                               # Flask Web Entry Gateway
+│   ├── backend.py                           # GAN Processing Liaison
+│   └── index.html                           # Application Frontend Blueprint
 │
-├── .gitattributes                                 # Global Git LFS & Config
-├── .gitignore                                     # Asset Exclusion Manifest
-├── requirements.txt                               # Dependency Manifest
-├── CITATION.cff                                   # Scholarly Citation Metadata
-├── codemeta.json                                  # Software Metadata Manifest
-├── LICENSE                                        # MIT License Terms
-├── README.md                                      # Comprehensive Archival Entrance
-└── SECURITY.md                                    # Vulnerability Exposure Policy
+├── .gitattributes                           # Global Git LFS & Config
+├── .gitignore                               # Asset Exclusion Manifest
+├── requirements.txt                         # Dependency Manifest
+├── CITATION.cff                             # Scholarly Citation Metadata
+├── codemeta.json                            # Software Metadata Manifest
+├── LICENSE                                  # MIT License Terms
+├── README.md                                # Comprehensive Archival Entrance
+└── SECURITY.md                              # Vulnerability Exposure Policy
 ```
 
 ---
@@ -264,11 +248,13 @@ Copyright © 2021 Amey Thakur, Hasan Rizvi, Mega Satish
 
 This repository serves as a permanent technical record for **White-Box Cartoonization**, developed as a **6th Semester Mini-Project**. It highlights the practical application of GANs in artistic rendering and the deployment of AI models via modern web interfaces.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to [**Hasan Rizvi**](https://github.com/rizvihasan) and [**Mega Satish**](https://github.com/msatmod) for their exceptional collaboration and scholarly partnership during the development of this project. Their constant support, technical clarity, and dedication to software quality were instrumental in achieving the system's functional objectives. Learning alongside them was a transformative experience; their thoughtful approach to problem-solving and steady encouragement turned complex requirements into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Hasan and Mega, for everything you shared and taught along the way.
+
+Grateful acknowledgment to the faculty members of the **Department of Computer Engineering** at Terna Engineering College for their guidance and instruction in Machine Learning. Their expertise in neural networks and generative models helped me develop a strong understanding of professional AI development methodologies.
 
 Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoon Representations"* (Xinrui Wang and Jinze Yu, CVPR 2020) for their foundational research.
 
@@ -286,7 +272,9 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   ---
 
-  ### Presented as part of the 6th Semester Mini-Project @ Terna Engineering College
+  #### Presented as part of the 6th Semester Mini-Project @ Terna Engineering College
+
+  ---
 
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 

@@ -46,6 +46,14 @@ def index():
     """
     return send_file('index.html')
 
+@app.errorhandler(404)
+def page_not_found(e):
+    """
+    Route: 404 Error
+    Purpose: Serves the custom cinematic 404 page.
+    """
+    return send_file('404.html'), 404
+
 @app.route('/cartoonize', methods=['POST'])
 def cartoonize():
     """

@@ -1,4 +1,4 @@
-# Technical Specification: WHITE-BOX-CARTOONIZATION
+# Technical Specification: White Box Cartoonization
 
 ## Architectural Overview
 

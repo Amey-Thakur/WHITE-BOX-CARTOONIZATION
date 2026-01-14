@@ -38,6 +38,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+    /* SECURITY: Disable Selection & Anti-Theft */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 /* Header Section */
@@ -689,7 +701,13 @@ body {
 }
 
 /* Hover effect for the drop zone */
-#inputDropZone:hover .placeholder-text svg {
-    transform: scale(1.1);
-    color: var(--accent-primary) !important;
+/* 🛡️ Security Pulse Animation */
+@keyframes securityPulse {
+    0% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.4)); }
+    50% { transform: scale(1.05); filter: drop-shadow(0 0 30px rgba(239, 68, 68, 0.8)); }
+    100% { transform: scale(1); filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.4)); }
+}
+
+.security-icon {
+    animation: securityPulse 1.5s infinite ease-in-out;
 }

@@ -14,6 +14,7 @@
  * 2. Sending the image to the backend server.
  * 3. Displaying the resulting cartoonized image.
  * 4. Keyboard shortcuts for power users.
+ * 5. Frontend security (Anti-theft & Anti-select).
  * =============================================================================
  */
 
@@ -1165,5 +1166,76 @@ if (isMobile) {
         }
     });
 }
+
+// =============================================================================
+// 🛡️ FRONTEND SECURITY & ANTI-THEFT PROTOCOLS
+// =============================================================================
+
+const securityOverlay = document.getElementById('securityOverlay');
+const dismissSecurity = document.getElementById('dismissSecurity');
+
+function showSecurityNotice() {
+    if (securityOverlay) {
+        securityOverlay.classList.remove('hidden');
+        securityOverlay.classList.add('playing');
+
+        // Play alert sound if possible (optional, reusing magical sound)
+        playMagicalSound();
+    }
+}
+
+function hideSecurityNotice() {
+    if (securityOverlay) {
+        securityOverlay.classList.remove('playing');
+        setTimeout(() => securityOverlay.classList.add('hidden'), 500);
+    }
+}
+
+if (dismissSecurity) {
+    dismissSecurity.addEventListener('click', hideSecurityNotice);
+}
+
+// 1. Disable Right-Click Context Menu
+document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+    showSecurityNotice();
+    return false;
+});
+
+// 2. Prevent View Source and Inspection Shortcuts
+document.addEventListener('keydown', (e) => {
+    // Disable F12 (DevTools)
+    if (e.key === 'F12') {
+        e.preventDefault();
+        showSecurityNotice();
+    }
+
+    // Disable Ctrl+u (View Source), Ctrl+Shift+I (Inspect), Ctrl+Shift+J (Console), Ctrl+Shift+C (Inspect Element)
+    const key = e.key.toLowerCase();
+    if (e.ctrlKey && (key === 'u' || (e.shiftKey && (key === 'i' || key === 'j' || key === 'c')))) {
+        e.preventDefault();
+        showSecurityNotice();
+    }
+
+    // Disable Ctrl+S (Save Page) - to encourage using the Save button for images
+    if (e.ctrlKey && key === 's') {
+        e.preventDefault();
+        showNotification("Please use the 'Save' button for cartoon results!");
+    }
+
+    // Escape key to dismiss security overlay
+    if (e.key === 'Escape') {
+        hideSecurityNotice();
+    }
+});
+
+// 3. Anti-Drag for non-functional elements
+document.addEventListener('dragstart', (e) => {
+    if (e.target.tagName === 'IMG' && (!e.target.id || !e.target.id.includes('outputImage'))) {
+        e.preventDefault();
+    }
+});
+
+console.log("Security Protocols Initialized | Amey Thakur · Hasan Rizvi · Mega Satish");
 
 

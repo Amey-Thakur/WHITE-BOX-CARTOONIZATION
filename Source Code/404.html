@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Project Segment Not Found</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/theme.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            text-align: center;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            color: var(--accent-primary);
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+            margin: 0;
+            animation: glitch 2s infinite;
+        }
+
+        .error-message {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            margin-top: -20px;
+            letter-spacing: 2px;
+        }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(0);
+            }
+
+            20% {
+                transform: translate(-2px, 2px);
+            }
+
+            40% {
+                transform: translate(-2px, -2px);
+            }
+
+            60% {
+                transform: translate(2px, 2px);
+            }
+
+            80% {
+                transform: translate(2px, -2px);
+            }
+
+            100% {
+                transform: translate(0);
+            }
+        }
+    </style>
+</head>
+
+<body style="user-select: none;">
+
+    <div class="header">
+        <h1>🎬 WHITE BOX CARTOONIZATION</h1>
+    </div>
+
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <p class="error-message">PROJECT SEGMENT NOT FOUND</p>
+        <div style="margin-top: 40px;">
+            <a href="/" class="btn-custom" style="text-decoration: none;">Return to Home</a>
+        </div>
+    </div>
+
+    <!-- 3. Footer Section (Standardized) -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <!-- Column 1: Production Info -->
+            <div class="footer-col">
+                <h4>PROJECT DETAILS</h4>
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING" target="_blank">6th Semester
+                    Mini-Project</a>
+                <a href="https://github.com/Amey-Thakur/COMPUTER-ENGINEERING" target="_blank">@ Terna Engineering
+                    College</a>
+                <p class="sub-text">Batch of 2022</p>
+            </div>
+
+            <!-- Column 2: The Cast (Authors) -->
+            <div class="footer-col">
+                <h4>DEVELOPERS</h4>
+                <a href="https://github.com/Amey-Thakur" target="_blank" class="highlight">Amey Thakur</a>
+                <a href="https://github.com/rizvihasan" target="_blank" class="highlight">Hasan Rizvi</a>
+                <a href="https://github.com/msatmod" target="_blank" class="highlight">Mega Satish</a>
+                <p class="sub-text">Group 11</p>
+            </div>
+
+            <!-- Column 3: Resources & Links -->
+            <div class="footer-col resources-col">
+                <h4>RESEARCH</h4>
+                <div class="link-group">
+                    <a href="https://arxiv.org/abs/2107.04551" target="_blank">arXiv</a>
+                    <span class="separator">•</span>
+                    <a href="http://dx.doi.org/10.33564/IJEAST.2021.v05i12.049" target="_blank">IJEAST</a>
+                    <span class="separator">•</span>
+                    <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Learning_to_Cartoonize_Using_White-Box_Cartoon_Representations_CVPR_2020_paper.html"
+                        target="_blank">CVPR</a>
+                </div>
+
+                <h4>CONNECT</h4>
+                <div class="link-group">
+                    <a href="https://youtu.be/8VNc8p6AKmw" target="_blank">YouTube Demo</a>
+                    <span class="separator">•</span>
+                    <a href="https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION" target="_blank">GitHub</a>
+                    <span class="separator">•</span>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ameythakur20@gmail.com&su=Inquiry%20from%20White-Box%20Cartoonizer"
+                        target="_blank">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
