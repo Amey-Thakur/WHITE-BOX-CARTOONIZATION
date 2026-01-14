@@ -1,13 +1,3 @@
----
-title: White Box Cartoonization
-emoji: 🎨
-colorFrom: blue
-colorTo: purple
-sdk: docker
-pinned: false
-app_port: 7860
----
-
 <div align="center">
 
   <a name="readme-top"></a>
