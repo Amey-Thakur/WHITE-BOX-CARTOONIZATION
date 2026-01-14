@@ -74,7 +74,6 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 | 3 | [**Technical Report**](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) | Comprehensive archival project documentation | 2021 | — |
 | 4 | [**Technical Presentation**](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) | Visual overview of the model architecture | 2021 | — |
 | 5 | [**Publication Certificate**](Mini-Project/IJEAST-V5I12%20-%20White-Box%20Cartoonization%20Using%20An%20Extended%20GAN%20Framework.pdf) | Recognition for research excellence | July 2021 | — |
-| 6 | [**Machine Learning Lab**](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION) | Computer Engineering Laboratory Repository | — | — |
 
 > [!TIP]
 > **Optimized Model Inference**
