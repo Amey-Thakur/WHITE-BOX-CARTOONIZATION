@@ -267,7 +267,7 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   <br>
 
-  🎬 **[White Box Cartoonization](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)**
+  🎬 **[White Box Cartoonization](https://huggingface.co/spaces/ameythakur/white-box-cartoonization)**
 
   ---
 
