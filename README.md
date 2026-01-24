@@ -1,3 +1,13 @@
+---
+title: White Box Cartoonization
+emoji: 🎨
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
 <div align="center">
 
   <a name="readme-top"></a>
@@ -74,6 +84,7 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 | 3 | [**Technical Report**](Mini-Project/WHITE-BOX%20CARTOONIZATION%20USING%20AN%20EXTENDED%20GAN%20FRAMEWORK%20REPORT.pdf) | Comprehensive archival project documentation | 2021 | — |
 | 4 | [**Technical Presentation**](Mini-Project/Presentation%20-%20MINI-PROJECT_PRESENTATION%20_TE-COMPS_B-50,51,58.pdf) | Visual overview of the model architecture | 2021 | — |
 | 5 | [**Publication Certificate**](Mini-Project/IJEAST-V5I12%20-%20White-Box%20Cartoonization%20Using%20An%20Extended%20GAN%20Framework.pdf) | Recognition for research excellence | July 2021 | — |
+| 6 | [**Machine Learning Lab**](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION) | Computer Engineering Laboratory Repository | — | — |
 
 > [!TIP]
 > **Optimized Model Inference**
@@ -107,41 +118,36 @@ Developed as a mini-project for the **Machine Learning Laboratory** curriculum, 
 
 ```python
 WHITE-BOX-CARTOONIZATION/
-│
 ├── docs/                                    # Formal Documentation
 │   └── SPECIFICATION.md                     # Technical Architecture & Specification
-│
-├─�� Mega/                                    # Archival Attribution Assets
+├── Mega/                                    # Archival Attribution Assets
 │   ├── Filly.jpg                            # Companion (Filly)
 │   └── Mega.png                             # Author Profile Image (Mega Satish)
-│
 ├── Mini-Project/                            # Research, Demos & Training Materials
 │   ├── Demo/                                # Functional System Demonstrations
 │   ├── Draft/                               # Early Manuscripts & Design Drafts
 │   ├── Experimental-Implementations/        # Node.js & TF.js Research
 │   ├── Figures/                             # System Diagrams & Architecture
-��   ├── Files/                               # Visualization & Research Data
-│   ���   └── GAN-Tree.gif                     # GAN Learning Progression
+│   ├── Files/                               # Visualization & Research Data
+│   │   └── GAN-Tree.gif                     # GAN Learning Progression
 │   ├── Group - B11/                         # Official Academic Submission
 │   ├── WBC/                                 # Core Training Script Manifest
 │   ├── IJEAST-V5I12 - White-Box...          # Published Research Paper (IJEAST)
 │   ├── Preprint - White-Box...              # Formal Research Manuscript (arXiv)
 │   ├── MINI-PROJECT_PRESENTATION...         # Technical Presentation (PPTX)
 │   └── WHITE-BOX CARTOONIZATION REPORT.pdf  # Comprehensive Project Report
-│
 ├── Source Code/                             # Real-Time Web Application (Flask)
 │   ├── src/                                 # Core Inference Framework
-��   ├── static/                              # Frontend Presentation Assets
-│   ��── app.py                               # Flask Web Entry Gateway
+│   ├── static/                              # Frontend Presentation Assets
+│   ├── app.py                               # Flask Web Entry Gateway
 │   ├── backend.py                           # GAN Processing Liaison
 │   └── index.html                           # Application Frontend Blueprint
-│
 ├── .gitattributes                           # Global Git LFS & Config
 ├── .gitignore                               # Asset Exclusion Manifest
 ├── requirements.txt                         # Dependency Manifest
 ├── CITATION.cff                             # Scholarly Citation Metadata
 ├── codemeta.json                            # Software Metadata Manifest
-��── LICENSE                                  # MIT License Terms
+├── LICENSE                                  # MIT License Terms
 ├── README.md                                # Comprehensive Archival Entrance
 └── SECURITY.md                              # Vulnerability Exposure Policy
 ```
@@ -267,7 +273,7 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   <br>
 
-  🎬 **[White Box Cartoonization](https://huggingface.co/spaces/ameythakur/white-box-cartoonization)**
+  🎬 **[White Box Cartoonization](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)**
 
   ---
 
