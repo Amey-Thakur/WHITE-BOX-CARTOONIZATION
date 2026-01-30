@@ -281,4 +281,6 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
 
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
-</div> 
+</div>
+
+TEMP_LINE
