@@ -4,7 +4,7 @@
   # White-Box Cartoonization
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-  ![Status](https://img.shields.io/badge/Status-Completed-success)
+  [![Status](https://img.shields.io/badge/Status-Completed-success)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
   [![Backend](https://img.shields.io/badge/Backend-Python%20%7C%20TensorFlow%20%7C%20Flask-blueviolet)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
   [![Research](https://img.shields.io/badge/Research-IJEAST%20%7C%20arXiv-orange)](https://arxiv.org/abs/2107.04551)
   [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
@@ -282,5 +282,3 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
-
-
