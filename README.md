@@ -210,7 +210,9 @@ Ensure your environment meets the minimum specifications:
 >
 > Experience the full-fidelity AI cartoonization logic directly in your browser through the working Hugging Face Space, featuring real-time deep learning inference. You can also preview the high-fidelity clapper-system web interface on GitHub Pages, though model execution is restricted to the production-hosted gateway.
 >
-> [**Launch Model on Hugging Face**](https://huggingface.co/spaces/ameythakur/white-box-cartoonization) &nbsp;·&nbsp; [**View Web App UI on GitHub Pages**](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)
+> [**Launch Model on Hugging Face**](https://huggingface.co/spaces/ameythakur/white-box-cartoonization)
+>
+> [**View Web App UI on GitHub Pages**](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)
 
 ---
 
