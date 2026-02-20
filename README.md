@@ -4,7 +4,7 @@
   # White-Box Cartoonization
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-  [![Status](https://img.shields.io/badge/Status-Completed-success)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
+  ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Backend](https://img.shields.io/badge/Backend-Python%20%7C%20TensorFlow%20%7C%20Flask-blueviolet)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
   [![Research](https://img.shields.io/badge/Research-IJEAST%20%7C%20arXiv-orange)](https://arxiv.org/abs/2107.04551)
   [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION)
@@ -205,6 +205,13 @@ Ensure your environment meets the minimum specifications:
 2.  **Access Web Gateway**:
     -   Navigate to: `http://localhost:5002`
 
+> [!TIP]
+> **Generative Adversarial Network (GAN) Cartoonization Model**
+>
+> Experience the full-fidelity AI cartoonization logic directly in your browser through the working Hugging Face Space, featuring real-time deep learning inference. You can also preview the high-fidelity clapper-system web interface on GitHub Pages, though model execution is restricted to the production-hosted gateway.
+>
+> [**Launch Model on Hugging Face**](https://huggingface.co/spaces/ameythakur/white-box-cartoonization) &nbsp;·&nbsp; [**View Web App UI on GitHub Pages**](https://amey-thakur.github.io/WHITE-BOX-CARTOONIZATION/)
+
 ---
 
 <!-- =========================================================================================
@@ -282,3 +289,4 @@ Special thanks to the authors of *"Learning to Cartoonize Using White-box Cartoo
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
+
