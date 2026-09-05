@@ -1,0 +1,37 @@
+# White-Box Cartoonization
+
+> AI-powered web app that transforms photos into cartoon-style images using
+> deep learning (GAN + U-Net architecture)
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Hasan Rizvi
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Third Year, Semester VI
+Licence: CC BY 4.0, attribution required
+Repository created: 29 July 2022
+Work dated: 28 August 2021
+
+## What is in this repository
+
+- Mega, 6 files
+- Mini-Project, 112 files
+- Source Code, 16 files
+- docs, 1 file
+- Dockerfile
+- requirements.txt
+
+## Subject terms
+
+cartoongan, cartoonization, computer-engineering, computer-science,
+deep-learning, engineering, flask, gan, image-processing, javascript,
+machine-learning, python, style-transfer, tensorflowjs,
+university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://huggingface.co/spaces/ameythakur/white-box-cartoonization
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/

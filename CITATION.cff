@@ -13,3 +13,7 @@ title: "WHITE-BOX-CARTOONIZATION"
 version: 1.0.0
 date-released: 2021-08-28
 url: "https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION"
+identifiers:
+  - type: other
+    value: "2022-07-29"
+    description: "Date this repository was created on GitHub."

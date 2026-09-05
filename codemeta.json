@@ -43,8 +43,10 @@
             }
         }
     ],
+    "dateCreated": "2022-07-29",
     "dateReleased": "2021-08-28",
     "codeRepository": "https://github.com/Amey-Thakur/WHITE-BOX-CARTOONIZATION",
+    "isPartOf": "https://github.com/Amey-Thakur/COMPUTER-ENGINEERING",
     "developmentStatus": "complete",
     "runtimePlatform": [
         "Python 3.8+",
@@ -60,6 +62,34 @@
         "Flask",
         "Image Stylization",
         "Machine Learning",
-        "Computer Engineering"
-    ]
+        "Computer Engineering",
+        "Cartoongan",
+        "Cartoonization",
+        "Computer Science",
+        "Deep Learning",
+        "Engineering",
+        "GAN",
+        "Image Processing",
+        "JavaScript",
+        "Python",
+        "Style Transfer",
+        "Tensorflowjs",
+        "University Of Mumbai",
+        "University of Mumbai",
+        "Mumbai University",
+        "Terna Engineering College",
+        "Navi Mumbai",
+        "India",
+        "B.E. Computer Engineering",
+        "Semester VI",
+        "TE Comps",
+        "Amey Thakur",
+        "amey",
+        "ameythakur",
+        "amey-thakur",
+        "ameyarc",
+        "Mega Satish",
+        "megasatish"
+    ],
+    "url": "https://huggingface.co/spaces/ameythakur/white-box-cartoonization"
 }
